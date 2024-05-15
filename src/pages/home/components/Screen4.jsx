@@ -12,7 +12,7 @@ export default function Screen4() {
     {[1,2,3,4,5,6,7,8,].map(e=>(
 
                         <div className="space-y-5 " key={e}>
-                            <img className='rounded-md' src="https://images.ctfassets.net/0jnmtsdzg6p5/7LrypGfM1BdddpRfwGZrze/3a9135c9a49064c815ad7289b052772a/woman-smiling-and-presenting.png" alt="" />
+                            <img className='rounded-md'  src="https://images.ctfassets.net/0jnmtsdzg6p5/7LrypGfM1BdddpRfwGZrze/3a9135c9a49064c815ad7289b052772a/woman-smiling-and-presenting.png" alt="Zentech IT solutions" title='Zentech IT Solutions' />
                             <h3 className='font-semibold'>IAM Core</h3>
                             <p className='text-sm text-[#130032BF]'>Built for organizations and industries of all sizes. Save time and get the most value from every agreement.</p>
                             <b className='text-[#130032BF] block'>Available May 2024</b>

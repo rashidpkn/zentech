@@ -18,12 +18,12 @@ export default function Header() {
                     
                     <div className=" flex items-center gap-5">
                         <img src="" width={123} height={26} alt="" />
-                        <div className="flex gap-3 text-[#5b4e71] text-sm font-medium">
+                        <nav className="flex gap-3 text-[#5b4e71] text-sm font-medium">
                             <div className=""><button className='py-6 hover:border-b border-[#26065d]'>About Us</button> </div>
                             <div className=""><button className='py-6 hover:border-b border-[#26065d]'>Contact Us</button> </div>
                             <div className=""><button className='py-6 hover:border-b border-[#26065d]'>Blog</button> </div>
                             <div className=""><button className='py-6 hover:border-b border-[#26065d]'>Plans & Pricing</button> </div>
-                        </div>
+                        </nav>
                     </div>
                     <div className="flex gap-5 text-sm font-medium items-center">
                         <p className='text-[#5422ff]'>WHY CHOOSE US</p>

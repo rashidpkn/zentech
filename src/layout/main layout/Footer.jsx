@@ -145,7 +145,7 @@ const FooterLinks = ({heading='',links=[]}) =>{
         <h4 className='font-medium'>{heading}</h4>
         <ul className='mt-5 space-y-1'>
           {links.map(link=><li key={link.title}>
-            <Link to={link.link} className='font-medium text-sm hover:underline'>{link.title}</Link>
+            <Link to={link.link} title={link.title} className='font-medium text-sm hover:underline'>{link.title}</Link>
           </li>)}
         </ul>
     </div>
